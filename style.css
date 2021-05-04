@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+p{
+	color: #807d79;
+}
+body{
+	overflow-x: hidden;
+}
+
+.headers{
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)), url(air.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	clip-path: polygon(100% 0%, 100% 75%,50% 100%, 0% 75%, 0 0);
+}
+
+.navbar-brand{
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+	color: #fff!important;
+	font-weight: bold;
+}
+.navbar-brand p{
+	position: absolute;
+	font-size: 0.4rem;
+	color: #fff;
+}
+div ul li a{
+	color: #fff!important;
+}
+div ul li a:hover{
+	border-bottom: 1px solid #90EE90;
+}
+.offer h1{
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+.progress{
+	margin-bottom: 0.5rem;
+}
+.form{
+	display: grid;
+	justify-content: center;
+	width: 100%;
+
+}
+input{
+	background: none;
+	outline: none;
+	border: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.form{
+	background-image: linear-gradient(160deg, #16c9f9 55%, #fff 0%);
+}
+label{
+	font-weight: bold;
+}
+
+.enter{
+     text-decoration: none;
+     margin-top: 22rem;
+     position: absolute;
+     color: #fff;
+     margin-left: 16rem;
+     border: 1px solid  #fff;
+     border-radius: 10px;
+}
+.enter:hover{
+	color: #000;
+	background-color: #fff;
+
+}
+.enter1{
+     text-decoration: none;
+     margin-top: 22rem;
+     position: absolute;
+     color: #fff;
+     margin-left: 26rem;
+     border: 1px solid  #fff;
+     border-radius: 10px;
+     padding: 8px 20px;
+}
+.enter1:hover{
+	color: #000;
+	background-color: #fff;
+}
+/*#service{
+	background-image: linear-gradient(160deg , #16c9f9 55%, #fff 0%  );
+}
+#offer{
+	background-image: linear-gradient(160deg , #16c9f9 55%, #fff 0% );
+}*/
+.signup-form:hover{
+	transform: translateY(-10px);
+	transition: 0.9s ease;
+}
+#myBtn{
+	padding: 10px;
+	background-color: #00abff;
+	color:  green;
+	position: fixed;
+	border-radius: 10px;
+	bottom: 20px;
+	right: 40px;
+	display: none;
+	border: none;
+	z-index: 99;
+}
+#myBtn:hover{
+	background-color: #606060;
+}
